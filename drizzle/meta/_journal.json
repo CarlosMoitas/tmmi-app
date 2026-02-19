@@ -1,19 +1,12 @@
 {
   "version": "7",
-  "dialect": "mysql",
+  "dialect": "postgresql",
   "entries": [
     {
       "idx": 0,
-      "version": "5",
-      "when": 1770064476229,
-      "tag": "0000_wandering_proemial_gods",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "5",
-      "when": 1770064782358,
-      "tag": "0001_orange_marvel_boy",
+      "version": "7",
+      "when": 1771503854199,
+      "tag": "0000_hard_maria_hill",
       "breakpoints": true
     }
   ]
