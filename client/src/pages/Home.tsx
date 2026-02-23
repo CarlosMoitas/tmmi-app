@@ -115,7 +115,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-1 gap-1 max-w-2xl mx-auto">
             {/* Express */}
             <Card className="relative border-2 border-accent/20 hover:border-accent/50 transition">
               <div className="absolute -top-4 left-6 bg-accent text-accent-foreground px-4 py-1 rounded-full text-sm font-semibold">
