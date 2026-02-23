@@ -170,7 +170,7 @@ export default function Home() {
             </Card>
 
 
-            {/* Complete */}
+            {/* Complete 
            
             <Card className="border-2 border-border opacity-60">
               <div className="absolute -top-4 left-6 bg-muted text-muted-foreground px-4 py-1 rounded-full text-sm font-semibold">
@@ -215,7 +215,7 @@ export default function Home() {
                 </Button>
               </CardContent>
             </Card>
-
+*/}
 
           </div>
         </div>
@@ -271,7 +271,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* How It Works */}
+      {/* How It Works 
       <section className="py-20 md:py-32 bg-card border-t border-b border-border">
         <div className="container">
           <div className="max-w-3xl mx-auto mb-16 text-center">
@@ -283,7 +283,8 @@ export default function Home() {
 
           <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
             {[
-              { step: 1, title: "Escolha seu modelo", desc: "Selecione entre Express (5min) ou Completo (30-40min)" },
+            
+            { step: 1, title: "Escolha seu modelo", desc: "Selecione entre Express (5min) ou Completo (30-40min)" },
               { step: 2, title: "Receba o link", desc: "Preencha seus dados e receba instantaneamente o link do assistente" },
               { step: 3, title: "Responda as perguntas", desc: "Interaja com o assistente de IA especializado" },
               { step: 4, title: "Execute o plano", desc: "Implemente as recomendações e veja sua equipe evoluir" },
@@ -302,7 +303,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+*/}
       {/* FAQ Section */}
       <section id="faq" className="py-20 md:py-32">
         <div className="container">
@@ -317,10 +318,14 @@ export default function Home() {
             {[
               { q: "Preciso me cadastrar ou fornecer cartão de crédito?", a: "Não. O diagnóstico é completamente gratuito e sem compromisso. Você apenas precisa fornecer seu e-mail para receber o resultado." },
               { q: "Meus dados estão seguros?", a: "Sim. Seus dados são criptografados e armazenados com segurança. Nunca compartilhamos informações com terceiros." },
+              /*
               { q: "Qual a diferença entre o Diagnóstico Express e o Completo?", a: "O Express é rápido (5 min) com 10 perguntas. O Completo é mais profundo (30-40 min) com análise conversacional de IA." },
+               */
               { q: "O que é TMMi?", a: "TMMi é o Test Maturity Model integration, um framework internacional para avaliar e melhorar processos de teste." },
               { q: "Preciso ter conhecimento técnico avançado?", a: "Não. As perguntas são formuladas para profissionais de QA de todos os níveis." },
-              { q: "Vou receber o resultado por e-mail?", a: "Sim. O resultado é exibido imediatamente e também enviado por e-mail com um link para download do relatório em PDF." },
+               /*
+              { q: "Vou receber o resultado por e-mail?", a: "Sim. O resultado é exibido imediatamente e também enviado por e-mail com um link para download do relatório em PDF." }, 
+               */
             ].map((item, idx) => (
               <Card key={idx} className="border-border">
                 <CardHeader>
